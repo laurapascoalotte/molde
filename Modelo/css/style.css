@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: auto;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    line-height: 1.8;
+    font-size: medium;
+  }
+
+  img.banner{
+      width: 85%;
+      height: 230px;
+      display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: auto;
+  }
+
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color:#2f668d9e;
+    width: 85%;
+    margin: auto;
+    
+}
+
+ul.text{
+    margin-left: 20px;
+}
+
+ul.navegacao{ 
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  list-style: none;
+  width: 85%;
+  height: 100px;
+}
+
+ul.index{
+  margin-left: 20px;
+  
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.5rem;
+  }
+
+  nav a:hover{
+    text-decoration:underline;
+    color:rgb(13, 4, 90);
+    
+    }
+
+    .sub-header{
+      display: flex;
+      
+    }
+
+  article{
+    margin: auto;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    background-color: #94cadd23;
+    width: 85%;
+    height: 100%;
+    text-align: justify;
+    color: #011526;
+  }
+
+  #casos_uso{
+    display: flex;
+  }
+
+  #left{
+width: 80%;
+  }
+
+  #right{
+width: 20%;
+  }
+
+  .imagem{
+    margin: auto;
+  }
+
+  #site_sistema{
+    margin: auto;
+    font-size: 22px;
+  }
+
+  footer {
+    margin: auto;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    text-align: center;
+    background-color: #94cadd10;
+    width: 85%;
+    font-size: 12px;
+  }
